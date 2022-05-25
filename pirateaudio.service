@@ -1,0 +1,11 @@
+[Unit]
+Description=PirateAudio
+
+[Service]
+ExecStart=/home/volumio/PirateAudio/volumio/PirateAudioVolumio.py
+Restart=always
+RestartSec=10
+User=volumio
+
+[Install]
+WantedBy=multi-user.target
