@@ -1,8 +1,12 @@
 # PirateAudio_Volumio
 
+PIMORONI製のPirate Audioを使用し、RasberryPiで動作のVolumioを操作とLCDに表示。
+<image>
+
 # 設定
 ## 日本語フォント
 $ sudo apt install fonts-ipgexfont
+
 
 ## Python
 $ sudo apt install python-rpi.gpio python-spidev python-pip python-pil python-numpy
