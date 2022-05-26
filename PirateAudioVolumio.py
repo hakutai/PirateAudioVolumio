@@ -177,9 +177,9 @@ LCDh = lcdDisp.height
 lcdImage = Image.new('RGBA',(LCDw,LCDh),color=(0,0,0,0))
 lcdDraw  = ImageDraw.Draw(lcdImage)
 
-panel11Img = Image.open(scriptPath + "/images/LcdPanel11.png").convert('RGBA').resize((LCDw,LCDh))
-panel12Img = Image.open(scriptPath + "/images/LcdPanel12.png").convert('RGBA').resize((LCDw,LCDh))
-panel21Img = Image.open(scriptPath + "/images/LcdPanel21.png").convert('RGBA').resize((LCDw,LCDh))
+panel11Img = Image.open(scriptPath + "/panelPic/LcdPanel11.png").convert('RGBA').resize((LCDw,LCDh))
+panel12Img = Image.open(scriptPath + "/panelPic/LcdPanel12.png").convert('RGBA').resize((LCDw,LCDh))
+panel21Img = Image.open(scriptPath + "/panelPic/LcdPanel21.png").convert('RGBA').resize((LCDw,LCDh))
 
 #
 #　volumioのステータス読み込み
